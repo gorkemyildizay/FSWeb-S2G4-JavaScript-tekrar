@@ -53,11 +53,10 @@ console.log(KareninAlani(10))
 */
 
 function CemberinCevresi(r) {
-  let cevre = 2 * pi * r;
   
-  return cevre;
+  return 2 * pi * r;
 }
-console.log(CemberinCevresi)
+console.log(CemberinCevresi(5))
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
